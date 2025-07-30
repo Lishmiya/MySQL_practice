@@ -34,3 +34,8 @@ select first_name, salary from employee_details where(salary>=50000) and (salary
 select * from employee_details where first_name="DINESH";
 select first_name from employee_details where(first_name="DINESH" OR FIRST_NAME = "GOPINATH");
 select first_name from employee_details where(NOT first_name= "DINESH" and not FIRST_NAME = "GOPINATH");
+select * from employee_details where(salary>60000);
+select * from employee_details where(salary>=50000) and (salary<=70000);
+select concat(first_name ," ",last_name ) from employee_details where(salary<50000);
+select first_name,salary from employee_details order by salary asc;
+select * from employee_details order by first_name asc;
