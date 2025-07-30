@@ -31,6 +31,6 @@ select * from employee_details order by first_name asc;
 select *from employee_details order by first_name desc;
 select *from employee_details order by  first_name desc,salary asc;
 select first_name, salary from employee_details where(salary>=50000) and (salary<=70000);
-
+select * from employee_details where first_name="DINESH";
 select first_name from employee_details where(first_name="DINESH" OR FIRST_NAME = "GOPINATH");
 select first_name from employee_details where(NOT first_name= "DINESH" and not FIRST_NAME = "GOPINATH");
